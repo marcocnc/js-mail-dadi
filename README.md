@@ -17,4 +17,6 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 
 ## Logica Gioco dei dadi
-
+1. Creare due array in cui sono presenti dei numeri da 1 a 6
+2. Estrarre dei numeri casuali con il Math.random per entrambi gli array;
+3. Si creano delle condizioni in cui ci saranno diversi output a seconda del vincitore.
