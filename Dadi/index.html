@@ -4,10 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Dadi</title>
 </head>
 <body>
-
+    <div class="container">
+        <h1>Benvenuto nel gioco dei dadi!</h1>
+        <p>Potresti usare questo gioco per lasciare al caso delle decisioni difficili da prendere :P</p>
+        <div class="row">
+            <div class="col">
+                <div class="usercol">
+                    <img src="img/user-accounts-icon-15.jpg" alt="user">
+                    <h2 class="player">Tu</h2>
+                    <h2 id="numberUser"></h2>
+                </div>
+            </div>
+            <div class="col">
+                <h2>VS</h2>
+            </div>
+            <div class="col">
+                <div class="cpucol">
+                    <img src="img/Computer-PNG-Images-HD.png" alt="cpu">
+                    <h2 class="player">CPU</h2>
+                    <h2 id="numberCPU"></h2>
+                </div>
+            </div>
+        </div>
+        <button id="play">Gioca</button>
+        <h1 id="message"></h1>
+    </div>
+    
     
     <script src="js/script.js"></script>
 </body>
